@@ -13,43 +13,43 @@ const cards = () => {
     return (
         <div>
             <div>
-                <p className='card__statement'>
-                    A comprehensive consultation. Professional Expertise. The ultimate custom experience.
+                <p className='text-center cards__statement'>
+                    Our products are cruelty free and safe for all hair types and textures. Satisfaction guaranteed. Try it now!
                 </p>
             </div>
             <div>
-                <CardDeck>
-                 <Card style={{ width: '18rem' }}>
+
+                {/* Card__body is not centering */}
+                
+                <CardDeck className='cards'>
+                 <Card className='text-center' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Hydrated} alt="photo of hydrated curls"/>
                      <Card.Body>
                       <Card.Title>Hydrate</Card.Title>
                         <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
+                        Formulated with a mix of 10 nutritional oils  increases hydration, eliminating frizz.
                         </Card.Text>
-                            <Button variant="primary">Shop</Button>
+                            <Button variant="dark">Shop</Button>
                      </Card.Body>
                  </Card>
-                 <Card style={{ width: '18rem' }}>
+                 <Card className='text-center' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Volume} alt='curls with volume'/>
                      <Card.Body>
                       <Card.Title>Volume</Card.Title>
                         <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
+                        Healing astringent helps control frizz and provide beautiful full volume to the hair.
                         </Card.Text>
-                            <Button variant="primary">Shop</Button>
+                            <Button variant="dark">Shop</Button>
                      </Card.Body>
                  </Card>    
-                 <Card style={{ width: '18rem' }}>
+                 <Card className='text-center' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Nourish} alt='nourished curls'/>
                      <Card.Body>
                       <Card.Title>Nourish</Card.Title>
                         <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
+                        Infusion of caster oil that strengthens, nourishes and soothes dry hair. Breakage and hair loss are reduced.
                         </Card.Text>
-                            <Button variant="primary">Shop</Button>
+                            <Button variant="dark">Shop</Button>
                      </Card.Body>
                  </Card>
                 </CardDeck>

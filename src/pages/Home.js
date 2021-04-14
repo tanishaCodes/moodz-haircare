@@ -20,7 +20,7 @@ const Home = () => {
                     Custom hair care formulated just for you!
                 </p>
                 <p>
-                    <Button className='jumbotron__btn'>
+                    <Button className='jumbotron__btn' variant='dark'>
                         Get Your Formula
                     </Button>
                 </p>
