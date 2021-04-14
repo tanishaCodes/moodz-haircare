@@ -6,16 +6,13 @@ import {
 } from "react-router-dom";
 
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 
-import Header from './components/Header';
-import MoodzLogo from './assets/images/moodzLogo.png'
-import Home from './components/Home';
-import About from './components/About';
-import Blog from './components/Blog';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Navbar from './components/navbar';
+import Home from './pages/Home';
+import About from './pages/About';
+import Blog from './pages/Blog';
+import Contact from './pages/Contact';
+import Footer from './components/footer';
 
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,42 +20,22 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <>
-    <Router>
-      <Container className='justify-content-center' fluid={true}>
-          <Navbar expand="lg" variant="light" bg="light" sticky='top'>
-            <Navbar.Brand href="/">
-              <img className='logo' src={MoodzLogo} alt='logo' width={175} height={125} />
-            </Navbar.Brand>
-          </Navbar>
-          <Navbar bg='light' variant='light' sticky='top'>
-            <Nav className="mr-auto">
-              <Nav.Link href='/'>Home</Nav.Link>
-              <Nav.Link href='/about'>About</Nav.Link>
-              <Nav.Link href='/blog'>Blog</Nav.Link>
-              <Nav.Link href='/contact'>Contact</Nav.Link>
-            </Nav>
-          </Navbar>
+      <Router>
+       <Navbar />
         <Switch>
-          <Route path='/'>
-            <Home />
-          </Route>
-          <Route path='/about'>
-            <About />
-          </Route>
-          <Route path='/blog'>
-            <Blog />
-          </Route>
-          <Route path='/contact'>
-            <Contact />
-          </Route>
+          <Route path='/' exact component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/blog' component={Blog} />
+          <Route path='/contact' component={Contact} />
         </Switch>
-      </Container>
-    </Router>
+      </Router>
+
       <Container>
         <Footer />
       </Container>
     </>
   );
 }
+
 
 export default App;
