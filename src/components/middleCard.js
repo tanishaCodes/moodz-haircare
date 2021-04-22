@@ -9,14 +9,16 @@ const middleCard = () => {
     return (
         <div className='middleCard'>
             <Container>
-            <Jumbotron className='middleCard__graphic' fluid>
-                <h2>
-                "Trusted by the Best Hairstylists and Loved by the Best Clients"
-                </h2>
-                <p>
+              <Jumbotron className='middleCard__graphic' fluid>
+                <h4 className='text-center'>
+                    <span><strong>
+                        Trusted by the Best Hairstylists and Loved by the Best Clients
+                    </strong></span>
+                </h4>
+                <p className='text-center'><span>
                 The finest botanical ingredients made in our Phenix City lab to your shower.
-                </p>
-            </Jumbotron>
+                </span></p>
+              </Jumbotron>
             </Container>
         </div>
     )

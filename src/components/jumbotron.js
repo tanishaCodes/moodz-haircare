@@ -20,13 +20,13 @@ const jumbotron = () => {
             <Row>
              <Col>
                <h2>
-                Unique Hair Calls for Unique Care
+                <span><strong>Unique Hair Calls for Unique Care</strong></span>
                </h2>
                 <p>
-                 Custom hair care formulated just for you!
+                 <span>Custom hair care formulated just for you!</span>
                 </p>
                 <p>
-                 <Button className='jumbotron__btn' variant='dark'>
+                 <Button className='jumbotron__btn'>
                    Get Your Formula
                  </Button>
                 </p>

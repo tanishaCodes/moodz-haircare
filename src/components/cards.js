@@ -14,16 +14,16 @@ const cards = () => {
     return (
         <div>
             <div>
-                <p className='text-center cards__statement'>
-                    Our products are cruelty free and safe for all hair types and textures. Satisfaction guaranteed. Try it now!
-                </p>
+                <h4 className='text-center cards__statement'>
+                    Our products are cruelty free and safe for all hair types and textures. Satisfaction guaranteed. <p><strong>Try it now!</strong></p>
+                </h4>
             </div>
-            <div>
-                <CardDeck className='cards'>
+            <div className='cards'>
+                <CardDeck>
                  <Card className='text-center' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Hydrated} alt="photo of hydrated curls"/>
                      <Card.Body>
-                      <Card.Title>Hydrate</Card.Title>
+                      <Card.Title><strong>Hydrate</strong></Card.Title>
                         <Card.Text>
                         Formulated with a mix of 10 nutritional oils  increases hydration, eliminating frizz.
                         </Card.Text>
@@ -33,7 +33,7 @@ const cards = () => {
                  <Card className='text-center' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Volume} alt='curls with volume'/>
                      <Card.Body>
-                      <Card.Title>Volume</Card.Title>
+                      <Card.Title><strong>Volume</strong></Card.Title>
                         <Card.Text>
                         Healing astringent helps control frizz and provide beautiful full volume to the hair.
                         </Card.Text>
@@ -43,7 +43,7 @@ const cards = () => {
                  <Card className='text-center' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Nourish} alt='nourished curls'/>
                      <Card.Body>
-                      <Card.Title>Nourish</Card.Title>
+                      <Card.Title><strong>Nourish</strong></Card.Title>
                         <Card.Text>
                         Infusion of caster oil that strengthens, nourishes and soothes dry hair. Breakage and hair loss are reduced.
                         </Card.Text>

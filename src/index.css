@@ -4,9 +4,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Trirong", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -19,10 +17,18 @@ code {
 /* BEM naming convention */
 /* Navigation Bar */
 
+.navbar-toggler {
+  background-color: #fff !important;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff !important;
+}
+
 .navbar {
   display: flex;
   align-items: center;
-  background-color: #fff;
+  background-color: #fff !important;
 }
 
 .navbar__logo {
@@ -33,10 +39,8 @@ code {
   place-items: center;
 }
 
+
 /* Jumbotron */
-.jumbotron {
-  background-color: #f6e3f6;
-}
 
 @media only screen and (max-width: 576px) {
   .jumbotron {
@@ -66,7 +70,6 @@ code {
 
 @media (max-width: 1000px) {
   .jumbotron {
-    background-color: #c98a6d;
     min-height: 50vh;
     transform: translateX(-50%);
     left: 50%;
@@ -74,25 +77,31 @@ code {
   }
 }
 
-.jumbotron__container {
+span {
+  background-color: #ffffff8d;
+  line-height: 1.7;
   position: relative;
-  height: 100%;
 }
 
-.jumbotron > .jumbotron__btn {
-  background-color: #593131;
+button {
+  background-color: #dc7863 !important;
+  border: #dc7863 !important;
 }
+
 
 /* Cards  */
 
 .cards__statement {
   align-content: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  line-height: 1.7;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .cards {
   place-items: center;
+  padding-left: 80px;
+  padding-right: 75px;
 }
 
 .cards__body {
@@ -102,8 +111,8 @@ code {
 /* MiddleCard */
 
 .middleCard {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 170px;
+  padding-bottom: 170px;
 }
 
 .middleCard__graphic {
@@ -112,3 +121,4 @@ code {
   background-size: 100% 100%;
   height: 500px;
 }
+
