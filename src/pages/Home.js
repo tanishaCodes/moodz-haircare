@@ -5,6 +5,8 @@ import Cards from '../components/cards'
 import MiddleCard from '../components/middleCard'
 
 import '../index.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 const Home = () => {
     // Code for the Button will go here
@@ -15,12 +17,12 @@ const Home = () => {
             <Jumbotron />
           </div>
           <div>
-            <Container>
-                <Cards />
-            </Container>
+           <Container>
+            <Cards />
+           </Container>
           </div>
           <div>
-              <MiddleCard />
+           <MiddleCard />
           </div>
         </div>
     );

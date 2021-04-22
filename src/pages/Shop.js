@@ -2,12 +2,12 @@ import '../index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-const About = () => {
+const Shop = () => {
     return (
         <div>
-            <h1>About Page</h1>
+            <h1>Shop</h1>
         </div>
     )
 }
 
-export default About
+export default Shop

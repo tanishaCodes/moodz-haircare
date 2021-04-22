@@ -7,6 +7,7 @@ import Nourish from '../assets/images/nourish.jpg'
 import Volume from '../assets/images/volume.jpg'
 
 import '../index.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 const cards = () => {
@@ -18,9 +19,6 @@ const cards = () => {
                 </p>
             </div>
             <div>
-
-                {/* Card__body is not centering */}
-                
                 <CardDeck className='cards'>
                  <Card className='text-center' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Hydrated} alt="photo of hydrated curls"/>

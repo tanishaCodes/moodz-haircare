@@ -10,7 +10,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from './components/navbar';
 import Home from './pages/Home';
 import About from './pages/About';
-import Blog from './pages/Blog';
+import Shop from './pages/Shop';
 import Contact from './pages/Contact';
 import Footer from './components/footer';
 
@@ -25,11 +25,10 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
-          <Route path='/blog' component={Blog} />
+          <Route path='/shop' component={Shop} />
           <Route path='/contact' component={Contact} />
         </Switch>
       </Router>
-
       <Container>
         <Footer />
       </Container>
