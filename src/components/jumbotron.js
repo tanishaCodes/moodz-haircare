@@ -8,19 +8,19 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const jumbotron = () => {
     return (
-        <div>
+        <>
           <Container className='jumbotron__container'>
           <Jumbotron className='jumbotron' style={{ 
             backgroundImage: `url(${Conditioners})`,
             backgroundSize: '100% 100%',
             backgroundRepeat: 'no-repeat',
-            width:'100%',
-            height: '50vh',
+            maxWidth:'100%',
+            height: '600px',
             }}>
             <Row>
              <Col>
                <h2>
-                <span><strong>Unique Hair Calls for Unique Care</strong></span>
+                 <span><strong>Unique Hair Calls for Unique Care </strong></span>
                </h2>
                 <p>
                  <span>Custom hair care formulated just for you!</span>
@@ -34,7 +34,7 @@ const jumbotron = () => {
             </Row>
             </Jumbotron>
           </Container>
-        </div>
+        </>
     )
 }
 

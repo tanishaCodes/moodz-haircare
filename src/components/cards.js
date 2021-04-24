@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const cards = () => {
     return (
-        <div>
+        <>
             <div>
                 <h4 className='text-center cards__statement'>
                     Our products are cruelty free and safe for all hair types and textures. Satisfaction guaranteed. <p><strong>Try it now!</strong></p>
@@ -20,7 +20,7 @@ const cards = () => {
             </div>
             <div className='cards'>
                 <CardDeck>
-                 <Card className='text-center' style={{ width: '18rem' }}>
+                 <Card className='text-center card__hydrate' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Hydrated} alt="photo of hydrated curls"/>
                      <Card.Body>
                       <Card.Title><strong>Hydrate</strong></Card.Title>
@@ -30,7 +30,7 @@ const cards = () => {
                             <Button variant="dark">Shop</Button>
                      </Card.Body>
                  </Card>
-                 <Card className='text-center' style={{ width: '18rem' }}>
+                 <Card className='text-center card__volume' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Volume} alt='curls with volume'/>
                      <Card.Body>
                       <Card.Title><strong>Volume</strong></Card.Title>
@@ -40,7 +40,7 @@ const cards = () => {
                             <Button variant="dark">Shop</Button>
                      </Card.Body>
                  </Card>    
-                 <Card className='text-center' style={{ width: '18rem' }}>
+                 <Card className='text-center card__nourish' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Nourish} alt='nourished curls'/>
                      <Card.Body>
                       <Card.Title><strong>Nourish</strong></Card.Title>
@@ -52,7 +52,7 @@ const cards = () => {
                  </Card>
                 </CardDeck>
             </div>
-        </div>
+        </>
     )
 }
 

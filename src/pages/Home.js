@@ -9,8 +9,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 const Home = () => {
-    // Code for the Button will go here
-
     return (
         <div>
           <div>
