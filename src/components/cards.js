@@ -27,7 +27,9 @@ const cards = () => {
                         <Card.Text>
                         Formulated with a mix of 10 nutritional oils  increases hydration, eliminating frizz.
                         </Card.Text>
+                          <div>
                             <Button variant="dark">Shop</Button>
+                          </div>
                      </Card.Body>
                  </Card>
                  <Card className='text-center card__volume' style={{ width: '18rem' }}>
@@ -37,7 +39,9 @@ const cards = () => {
                         <Card.Text>
                         Healing astringent helps control frizz and provide beautiful full volume to the hair.
                         </Card.Text>
-                            <Button variant="dark">Shop</Button>
+                          <div>
+                            <Button variant="dark">Shop</Button> 
+                          </div>
                      </Card.Body>
                  </Card>    
                  <Card className='text-center card__nourish' style={{ width: '18rem' }}>
@@ -47,7 +51,9 @@ const cards = () => {
                         <Card.Text>
                         Infusion of caster oil that strengthens, nourishes and soothes dry hair. Breakage and hair loss are reduced.
                         </Card.Text>
-                            <Button variant="dark">Shop</Button>
+                          <div>
+                            <Button variant="dark">Shop</Button>   
+                          </div>
                      </Card.Body>
                  </Card>
                 </CardDeck>

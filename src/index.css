@@ -116,6 +116,11 @@ button {
 
 /* Cards  */
 
+Img {
+  height: 300px;
+  width: 200px;
+}
+
 .cards__statement {
   align-content: center;
   line-height: 1.7;
@@ -130,9 +135,6 @@ button {
   padding-right: 75px;
 }
 
-.cards__body {
-  place-items: center;
-}
 
 /* MiddleCard */
 
