@@ -39,7 +39,8 @@ code {
   font-feature-settings: 'liga';
 }
 
-/* BEM naming convention */
+
+
 /* Navigation Bar */
 
 .navbar-toggler {
@@ -51,21 +52,29 @@ code {
 }
 
 .navbar {
+  position: sticky;
   display: flex;
   align-items: center;
   background-color: #fff !important;
+
 }
 
 .navbar__logo {
-  align-items: center;
-}
-
-.navbar__item {
-  place-items: center;
+  position: sticky;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin: auto;
+  height: 130px !important;
+  width: 130px !important;
 }
 
 
 /* Jumbotron */
+
+.jumbotron__container {
+  padding-top: 10px;
+}
 
 @media only screen and (max-width: 576px) {
   .jumbotron {
@@ -117,7 +126,7 @@ button {
 /* Cards  */
 
 Img {
-  height: 300px;
+  height: 250px;
   width: 200px;
 }
 

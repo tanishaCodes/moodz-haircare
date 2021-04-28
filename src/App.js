@@ -22,12 +22,12 @@ function App() {
     <>
       <Router>
        <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/about' component={About} />
-          <Route path='/shop' component={Shop} />
-          <Route path='/contact' component={Contact} />
-        </Switch>
+       <Switch>
+               <Route path='/' exact render={() => <Home />} />
+               <Route path='/about' exact render={() => <About />} />
+               <Route path='/shop' exact render={() => <Shop />} />
+               <Route path='/contact' exact render={() => <Contact />} />
+             </Switch> 
       </Router>
       <Container>
         <Footer />
