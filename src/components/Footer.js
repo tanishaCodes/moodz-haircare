@@ -44,14 +44,16 @@ const Footer = () => {
                      <div className='footer__header'>
                         <strong>Social</strong>
                      </div>
-                     <div>
-                        <FacebookIcon /> Facebook
+                     <div className='row'> 
+                     <div className='column'>
+                        <FacebookIcon />
                      </div>
-                     <div>
-                        <InstagramIcon /> Instagram
+                     <div className='column'>
+                        <InstagramIcon />
                      </div>
-                     <div>
-                        <TwitterIcon /> Twitter
+                     <div className='column'>
+                        <TwitterIcon />
+                     </div>
                      </div>
                    </Col>
                 </Row>

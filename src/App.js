@@ -22,14 +22,14 @@ function App() {
     <>
       <Router>
        <Navbar />
-       <Switch>
-               <Route path='/' exact render={() => <Home />} />
-               <Route path='/about' exact render={() => <About />} />
-               <Route path='/shop' exact render={() => <Shop />} />
-               <Route path='/contact' exact render={() => <Contact />} />
-             </Switch> 
+        <Switch>
+          <Route path='/' exact render={() => <Home />} />
+          <Route path='/about' exact render={() => <About />} />
+          <Route path='/shop' exact render={() => <Shop />} />
+          <Route path='/contact' exact render={() => <Contact />} />
+        </Switch> 
       </Router>
-      <Container>
+      <Container className='footer__container'>
         <Footer />
       </Container>
     </>

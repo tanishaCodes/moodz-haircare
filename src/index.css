@@ -74,6 +74,7 @@ code {
 
 .jumbotron__container {
   padding-top: 10px;
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -133,8 +134,8 @@ Img {
 .cards__statement {
   align-content: center;
   line-height: 1.7;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 170px;
+  padding-bottom: 170px;
 }
 
 .cards {
@@ -148,7 +149,7 @@ Img {
 /* MiddleCard */
 
 .middleCard {
-  padding-top: 170px;
+  padding-top: 350px;
   padding-bottom: 170px;
 }
 
@@ -161,6 +162,10 @@ Img {
 
 /* Footer */
 
+.footer__container {
+  padding-top: 170px;
+}
+
 .footer {
   background-color: #dfbbb6;
   padding: 20px 50px 0px 70px;   /* top, right, bottom, left */
@@ -172,4 +177,24 @@ Img {
 
 .footer__link {
   text-decoration: none;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
 }

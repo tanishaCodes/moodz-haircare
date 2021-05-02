@@ -7,8 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const middleCard = () => {
     return (
-        <div className='middleCard'>
-            <Container>
+        <div>
+            <Container className='middleCard'>
               <Jumbotron className='middleCard__graphic' fluid>
                 <h4 className='text-center'>
                     <span><strong>
