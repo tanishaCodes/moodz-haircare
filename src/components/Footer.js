@@ -28,16 +28,16 @@ const Footer = () => {
                         <strong>Navigation</strong>
                      </div>
                      <div className='footer__link'>
-                       <a href='/' rel='noopener noreferrer' target='_blank' role='button'>Home</a>
+                       <a href='/' rel='noopener noreferrer' role='button'>Home</a>
                      </div>
                      <div className='footer__link'>
-                       <a href='/' rel='noopener noreferrer' target='_blank' role='button'>About</a>
+                       <a href='/about' rel='noopener noreferrer' role='button'>About</a>
                      </div>
                      <div className='footer__link'>
-                       <a href='/about' rel='noopener noreferrer' target='_blank' role='button'>Shop</a>
+                       <a href='/shop' rel='noopener noreferrer' role='button'>Shop</a>
                      </div>
                      <div className='footer__link'>
-                       <a href='/shop' rel='noopener noreferrer' target='_blank' role='button'>Contact</a>
+                       <a href='/contact' rel='noopener noreferrer' role='button'>Contact</a>
                      </div>
                     </Col>
                     <Col>
