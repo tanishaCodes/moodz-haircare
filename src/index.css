@@ -39,6 +39,9 @@ code {
   font-feature-settings: 'liga';
 }
 
+.container {
+  padding-top: 20px;
+}
 
 
 /* Navigation Bar */
@@ -69,12 +72,9 @@ code {
   width: 130px !important;
 }
 
+
 /* HOME PAGE */
 /* Jumbotron */
-
-.jumbotron__container {
-  padding-top: 10px;
-}
 
 @media only screen and (max-width: 576px) {
   .jumbotron {

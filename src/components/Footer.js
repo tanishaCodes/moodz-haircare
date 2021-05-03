@@ -1,6 +1,4 @@
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import { Container, Row, Col } from 'react-bootstrap'
 
 import FacebookIcon from '@material-ui/icons/Facebook'
 import InstagramIcon from '@material-ui/icons/Instagram'
@@ -17,7 +15,9 @@ const Footer = () => {
                 <Row>
                     <Col>
                       <div className='footer__header'>
-                        <strong>About Us</strong>
+                        <strong>
+                          About Us
+                        </strong>
                       </div>
                       <div>
                         This is a summary about us and our awesome products.
@@ -25,7 +25,9 @@ const Footer = () => {
                     </Col>
                     <Col>
                      <div className='footer__header'>
-                        <strong>Navigation</strong>
+                        <strong>
+                          Navigation
+                        </strong>
                      </div>
                      <div className='footer__link'>
                        <a href='/' rel='noopener noreferrer' role='button'>Home</a>
@@ -42,7 +44,9 @@ const Footer = () => {
                     </Col>
                     <Col>
                      <div className='footer__header'>
-                        <strong>Social</strong>
+                        <strong>
+                          Social
+                        </strong>
                      </div>
                      <div className='row'> 
                      <div className='column'>

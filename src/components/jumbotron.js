@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const jumbotron = () => {
     return (
         <>
-          <Container className='jumbotron__container'>
+          <Container className='container'>
           <Jumbotron className='jumbotron' style={{ 
             backgroundImage: `url(${Conditioners})`,
             backgroundSize: '100% 100%',

@@ -8,7 +8,7 @@ import MoodzFounder from '../assets/images/moodzFounder.png'
 const About = () => {
     return (
         <div>
-         <div className='jumbotron__container'>
+         <div className='container'>
           <Container>
             <h2>
              <span>
