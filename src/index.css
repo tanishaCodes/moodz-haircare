@@ -69,12 +69,11 @@ code {
   width: 130px !important;
 }
 
-
+/* HOME PAGE */
 /* Jumbotron */
 
 .jumbotron__container {
   padding-top: 10px;
-
 }
 
 @media only screen and (max-width: 576px) {
@@ -113,7 +112,7 @@ code {
 }
 
 span {
-  background-color: #ffffff8d;
+  background-color: #f6e3c48d;
   line-height: 1.7;
   position: relative;
 }
@@ -182,7 +181,7 @@ Img {
 .column {
   float: left;
   width: 33.33%;
-  padding: 15px;
+  padding: 10px;
 }
 
 /* Clear floats after the columns */
@@ -197,4 +196,16 @@ Img {
   .column {
     width: 100%;
   }
+}
+
+/* ABOUT PAGE */
+
+.about {
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.about__founder {
+  width: 500px;
+  height: 500px;
 }

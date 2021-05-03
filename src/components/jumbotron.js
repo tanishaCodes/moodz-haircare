@@ -1,4 +1,4 @@
-import { Jumbotron, Container, Row, Col, Button } from 'react-bootstrap';
+import { Jumbotron, Container, Row, Col, Button } from 'react-bootstrap'
 
 import Conditioners from '../assets/images/conditioners.jpg'
 

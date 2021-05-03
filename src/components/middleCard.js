@@ -11,13 +11,17 @@ const middleCard = () => {
             <Container className='middleCard'>
               <Jumbotron className='middleCard__graphic' fluid>
                 <h4 className='text-center'>
-                    <span><strong>
+                    <span>
+                       <strong>
                         Trusted by the Best Hairstylists and Loved by the Best Clients
-                    </strong></span>
+                       </strong>
+                    </span>
                 </h4>
-                <p className='text-center'><span>
-                The finest botanical ingredients made in our Phenix City lab to your shower.
-                </span></p>
+                <p className='text-center'>
+                    <span>
+                        The finest botanical ingredients made in our Phenix City lab to your shower.
+                    </span>
+                </p>
               </Jumbotron>
             </Container>
         </div>
