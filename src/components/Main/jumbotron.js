@@ -1,8 +1,8 @@
 import { Jumbotron, Container, Row, Col, Button } from 'react-bootstrap'
 
-import Conditioners from '../assets/images/conditioners.jpg'
+import Conditioners from '../../assets/images/conditioners.jpg'
 
-import '../index.css'
+import '../../index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 

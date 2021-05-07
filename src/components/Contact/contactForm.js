@@ -17,7 +17,7 @@ const contactForm = () => {
                     </Form.Group>
                 </Form.Row>
 
-                <Form.Group as={Col}>
+                <Form.Group>
                     <Form.Label>Email</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" />
                 </Form.Group>

@@ -3,11 +3,7 @@ import {
   BrowserRouter as Router,
 } from 'react-router-dom'
 
-import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import { Container, Nav, Navbar, Row, Col } from 'react-bootstrap'
 
 import MoodzLogo from '../assets/images/moodzLogo.png'
 
@@ -28,6 +24,7 @@ const navbar = () => {
               <Navbar className='navbar__menu' variant='light' sticky='top' expand="lg">
               <Navbar.Toggle className='border-0' aria-controls='responsive-navbar-nav' />
                 <Navbar.Collapse className='responsive-navbar-nav'>
+                  <div>
                 <Nav as='ul'>
                  <Col sm={10}>
                   <Nav.Item as='li'>
@@ -58,6 +55,7 @@ const navbar = () => {
                   </Nav.Item>
                  </Col>
                </Nav>
+               </div>
                </Navbar.Collapse>
              </Navbar>
             </Row>

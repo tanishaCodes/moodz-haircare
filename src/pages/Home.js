@@ -1,8 +1,8 @@
 import Container from 'react-bootstrap/Container'
 
-import Jumbotron from '../components/jumbotron'
-import Cards from '../components/cards'
-import MiddleCard from '../components/middleCard'
+import Jumbotron from '../components/Main/jumbotron'
+import Cards from '../components/Main/cards'
+import MiddleCard from '../components/Main/middleCard'
 
 import '../index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'

@@ -1,7 +1,7 @@
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 
-import '../index.css'
+import '../../index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 

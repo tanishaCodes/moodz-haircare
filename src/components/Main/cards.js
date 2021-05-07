@@ -1,12 +1,10 @@
-import Card from 'react-bootstrap/Card'
-import CardDeck from 'react-bootstrap/CardDeck'
-import Button from 'react-bootstrap/Button'
+import { Card, CardDeck, Button } from 'react-bootstrap'
 
-import Hydrated from '../assets/images/hydrated.jpg'
-import Nourish from '../assets/images/nourish.jpg'
-import Volume from '../assets/images/volume.jpg'
+import Hydrated from '../../assets/images/hydrated.jpg'
+import Nourish from '../../assets/images/nourish.jpg'
+import Volume from '../../assets/images/volume.jpg'
 
-import '../index.css'
+import '../../index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
@@ -19,6 +17,8 @@ const cards = () => {
                 </h4>
             </div>
             <div className='cards'>
+<br></br>
+<br></br>
                 <CardDeck>
                  <Card className='text-center card__hydrate' style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={Hydrated} alt="photo of hydrated curls"/>
@@ -57,6 +57,8 @@ const cards = () => {
                      </Card.Body>
                  </Card>
                 </CardDeck>
+<br></br>
+<br></br>
             </div>
         </>
     )
