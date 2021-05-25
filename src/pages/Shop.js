@@ -20,7 +20,7 @@ const Shop = () => {
                     $20.00
                   </Card.Text>
                   <div>
-                    <Button variant="dark">Add to Cart</Button>
+                    <Button type='addToCart' onClick='document.getElementById(' >Add to Cart</Button>
                   </div>
                 </Card.Body>
             </Card>

@@ -10,8 +10,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Home = () => {
     return (
-        <div>
-          <div className='jumbotron__container'>
+        <div> 
+          <div>
             <Jumbotron />
           </div>
           <div>

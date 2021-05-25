@@ -10,28 +10,27 @@ const jumbotron = () => {
     return (
         <>
           <Container className='container'>
-          <Jumbotron className='jumbotron' style={{ 
-            backgroundImage: `url(${Conditioners})`,
-            backgroundSize: '100% 100%',
-            backgroundRepeat: 'no-repeat',
-            maxWidth:'100%',
-            height: '600px',
+            <Jumbotron className='jumbotron' style={{ 
+              backgroundImage: `url(${Conditioners})`,
+              backgroundSize: '100% 100%',
+              backgroundRepeat: 'no-repeat',
+              height: '600px',
             }}>
-            <Row>
-             <Col>
-               <h2>
-                 <span><strong>Unique Hair Calls for Unique Care </strong></span>
-               </h2>
-                <p>
-                 <span>Custom hair care formulated just for you!</span>
-                </p>
-                <p>
-                 <Button className='jumbotron__btn'>
-                   Get Your Formula
-                 </Button>
-                </p>
-             </Col>
-            </Row>
+              <Row>
+                <Col>
+                 <h2>
+                   <span><strong>Unique Hair Calls for Unique Care</strong></span>
+                 </h2>
+                 <p>
+                   <span>Custom hair care formulated just for you!</span>
+                 </p>
+                 <p>
+                   <Button className='jumbotron__btn'>
+                     Get Your Formula
+                   </Button>
+                 </p>
+                </Col>
+              </Row>
             </Jumbotron>
           </Container>
         </>
